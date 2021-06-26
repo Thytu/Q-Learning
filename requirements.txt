@@ -1,0 +1,5 @@
+matplotlib==3.3.*
+numpy
+logging
+typing
+gym
