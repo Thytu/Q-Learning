@@ -1,0 +1,9 @@
+stages:
+  run_agent:
+    cmd: python main.py
+    deps:
+    - main.py
+    - agent.py
+    - plots.py
+    outs:
+    - plot.png
